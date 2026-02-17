@@ -1,0 +1,57 @@
+# Rain Tunnel Wash Theme - Git Ignore
+# This theme is deployed via Forge to wp-content/themes/raintunnelwash/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# SCSS cache (if using Sass)
+.sass-cache/
+*.css.map
+
+# Composer (if using PHP dependencies)
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+
+# WordPress specific (not needed - theme only repo)
+# These would be in the parent WordPress install, not here
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# ACF Pro plugin files (installed separately, not bundled)
+# The acf-json/ folder IS committed for field sync
